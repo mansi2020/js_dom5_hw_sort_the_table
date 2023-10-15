@@ -1,0 +1,81 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+button {
+    margin-bottom: 1rem;
+}
+
+table {
+    border: 2px dotted   purple;
+    table-layout: fixed;
+    width: 200px;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 2rem;
+}
+
+.content {
+    width:fit-content;
+    background: linear-gradient(0deg, rgba(99, 2, 2, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    box-shadow: inset 4px 4px 20px yellow;
+    border-radius: 1rem;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    padding: 10px 40px;
+    color: white;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    border-radius: 1rem;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+}
+
+button:hover {
+    border: 2px solid rgba(252, 176, 69, 1);
+    background: transparent;
+}
+
+tr,
+td{
+    text-align: center;
+    color: white;
+    font-size: 1.6rem;
+    padding: 2px;
+    border-bottom: 2px dotted yellow;
+}
+td{
+    width:400px;
+}
+tr:nth-child(even){
+    box-shadow: inset 2px 2px 2px solid yellow;
+}
+#heading{
+    padding: 10px 40px;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    width: 400px;
+    color: white;
+    border-radius: 0.5rem;
+}
